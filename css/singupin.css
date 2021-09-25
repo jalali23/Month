@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+  
+  }
+  @font-face{
+      font-family: "Btitr";
+      src:url(../fonts/BTITRBD.eot) format('eot'),
+      url(../fonts/BTITRBD.woff) format('woff'),
+      url(../fonts/BTITRBD.ttf) format('truetype');
+  }
+  @font-face{
+      font-family: "Bkoodak";
+      src:url(../fonts/BKOODB.eot) format('eot'),
+          url(../fonts/BKOODB.woff) format('woff'),
+          url(../fonts/BKOODB.ttf) format('truetype');
+  }
+body{
+    background: url('../img/bg-singup.jpg');
+    font-family: "vazir";
+}
+
+.singup{
+    background-color: rgba(64, 224, 208, 0.295);
+    box-shadow: 2px 3px 3px 3px rgba(2, 20, 19, 0.507);
+    width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+    border-radius: 40px;
+}
+form h6{
+    background-color: rgba(64, 224, 208, 0.596);
+    border-radius: 10px;
+    font-family: "vazir";
+    font-weight: bold;
+    font-size: 15px;
+}
+label {
+   font-size: 13px;
+   font-family: "vazir";
+   font-weight: bold;
+}
+input{
+    font-size: 15px;
+    font-family: "Bkoodak";
+    font-weight: bold;
+    border-radius: 10px;
+}
+form button{
+    background-color:rgb(170 232 61);
+    border-radius: 20px;
+    border: 2px solid green;
+    width: 60px;
+    font-family: "vazir";
+}
+form button:hover{
+    background-color:#569307;
+    border: 2px solid rgba(23, 51, 23, 0.692);
+}
+.forgot{
+    color: orangered;
+    font-size: 13px;
+}
+.forgot:hover{
+    color: rgb(235, 67, 5);
+    font-size: 13px;
+    font-weight: bolder;
+}
+.forgot p{   
+    font-size:17px;
+}
+ a:hover{
+    text-decoration: none;
+}
+.sing{
+    margin-right: 80%;
+    background: #ff6f1a;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.sing:hover{
+    color: rgba(0, 0, 0, 0.692);
+}
+.singin{
+    background-color: rgba(64, 224, 208, 0.295);
+    box-shadow: 2px 3px 3px 3px rgba(2, 20, 19, 0.507);
+    width: 400px;
+	margin: 50px auto;
+	text-align: center;
+	position: relative;
+    border-radius: 40px;
+}
+
