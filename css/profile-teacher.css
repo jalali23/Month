@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+  
+  }
+  @font-face{
+      font-family: "Btitr";
+      src:url(../fonts/BTITRBD.eot) format('eot'),
+      url(../fonts/BTITRBD.woff) format('woff'),
+      url(../fonts/BTITRBD.ttf) format('truetype');
+  }
+  @font-face{
+      font-family: "Bkoodak";
+      src:url(../fonts/BKOODB.eot) format('eot'),
+          url(../fonts/BKOODB.woff) format('woff'),
+          url(../fonts/BKOODB.ttf) format('truetype');
+  }
+  body{
+    font-family: "Vazir";
+  }
+    .text-teacher{
+            margin-right: auto;
+    }
+    .text {
+        line-height:20px;
+        font-size: 15px;
+    }
+    .caption-teacher{
+       background:  #93d0f8;
+    }
+    .top-navbar-teacher{
+      background:   rgba(255, 72, 6, 0.767);
+    }

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fa" >
+  <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/all.min.css"/>
+      <link rel="stylesheet" href="../css/profile-student.css"/>
+      <link rel="stylesheet" href="../css/footer.css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="../js/jquery-3.5.1.js"></script>
+	    <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/profile-student.js"></script>
+      <script src="../js/script.js"></script>
+      <link href="../img/profile.jpg" rel="shortcut icon" />
+      <title>یادداشت های من </title>   
+  </head>
+
+   <body >
+      
+      <nav class="navbar navbar-expand-md navbar-light">
+
+
+        <div class=" navbar-collapse" id="myNavbar">
+
+          <div class="container-fluid justify-content-center">
+
+            <div class="row">
+              <div class="col-md-3 col-lg-3 col-xl-2 responsive-menu">             
+                <a href="#"
+                  class="navbar-brand font-weight-bold text-black d-block mx-auto text-center py-3 mb-4 border-bottom">پنل کاربری</a>
+
+                <div class=" pb-2 profile ml-1"style='margin-right:0.5rem;'>
+                  <img src="../img/profile.jpg" class="rounded-circle mb-2" width="60"alt="پروفایل" style="margin-right: 2.75rem; box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.397);"><br>
+                  <a href="#" class="mr-4 name-profile text-black">  نام و نام خانوادگی </a><br>
+                  <a href="#" class="name-profile pt-3 text-black"style="margin-right: 2.75rem;">  نام کاربری </a>
+                </div>
+
+                <ul class="navbar-nav flex-column mt-4 p-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link sidebar-link p-2 mb-2  text-black" href="dashboard.html">
+                      <i class="fas fa-home text-black fa-lg ml-3 "></i> داشبورد
+                    </a>
+
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link  sidebar-link p-2 mb-2  text-black current" href="planer.html">
+                      <i class="fas fa-user text-black  text-bold fa-lg ml-3"></i> یادداشت های من
+                    </a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link  profile-fild text-right sidebar-link p-2 mb-2 text-black " href="Notifications.html"><i
+                    class="fas text-black fa-bell ml-3"></i> اطلاعیه </a></li>
+
+                    <li class="nav-item"><a class="nav-link  profile-fild text-right sidebar-link p-2 mb-2 text-black " href="Settings.html"><i
+                      class="fas text-black fa-bell ml-3"></i> تنظیمات </a></li>
+                      <li class="nav-item"><a class="nav-link text-right profile-fild sidebar-link p-2 mb-2 text-black " href=""><i
+                        class="fas fas fa-sign-out-alt text-blackt fa-lg ml-2"></i> خروج از حساب </a></li>
+                </ul>
+
+              </div>
+
+              <div class="col-md-3 col-lg-3 col-xl-2 sidebar shadow-lg fixed-top">
+                <div class="responsive-menu-icon"><i class="fa fa-bars"></i></div>
+            
+                <div class=" pb-2 profile ml-1 res"style='margin-right:0.5rem;'>
+                  <img src="../img/profile.jpg" class="rounded-circle mb-2" width="60"alt="پروفایل" style="margin-right: 2.75rem; box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.397);"><br>
+                  <a href="#" class="mr-4 name-profile text-black">  نام و نام خانوادگی </a><br>
+                  <a href="#" class="name-profile pt-3 text-black"style="margin-right: 2.75rem;">  نام کاربری </a>
+                </div>
+
+                <ul class="navbar-nav flex-column mt-4 p-0 res">
+
+                  <li class="nav-item">
+                    <a class="nav-link sidebar-link p-2 mb-2  text-black" href="dashboard.html">
+                      <i class="fas fa-home text-black fa-lg ml-3 "></i> داشبورد
+                    </a>
+
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link  sidebar-link p-2 mb-2 text-black current" href="planer.html">
+                      <i class="fas fa-user text-black  text-bold fa-lg ml-3"></i> یادداشت های من
+                    </a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link  profile-fild text-right sidebar-link p-2 mb-2 text-black " href="Notifications.html"><i
+                    class="fas text-black fa-bell ml-3"></i> اطلاعیه </a></li>
+
+                  <li class="nav-item"><a class="nav-link text-right profile-fild sidebar-link p-2 mb-2 text-black" href="Settings.html"><i
+                    class="fas fa-cogs text-blackt fa-lg ml-2"></i> تنظیمات </a></li>
+                
+                  <li class="nav-item"><a class="nav-link text-right profile-fild sidebar-link p-2 mb-2 text-black " href=""><i
+                      class="fas fas fa-sign-out-alt text-blackt fa-lg ml-2"></i> خروج از حساب </a></li>
+                </ul>
+
+              </div>
+
+              <div class="col-md-9 col-lg-9 col-xl-10 top-navbar py-2 mt-4 text-center ">
+
+                <div class="row align-items-center p-2">
+                   <a title='خانه' class=" mr-2 mt-1  " href="../landing.html">
+                     <i class="fas fa-home home"></i>  
+                    </a>
+                  <div class="col text-center ">
+   
+                    <h4 class="text-black mb-0 small">« قوی باش و حرکت کن &#127803;  » </h4>
+  
+                  </div>
+                </div>
+  
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </nav>  
+      <section class="section">
+
+        <div class="container-fluid">
+    
+          <div class="row">
+    
+            <div class="col-xl-10 col-lg-9 col-md-9 mr-auto">
+    
+              <div class="row pt-md-5 mb-md-5 main">
+    
+                <div class="col px-2">
+                    <div class="row mx-1">
+                        <div class="col-sm-8 img-Main py-1 " >
+                          <h6 class="text-center py-2 font-weight-bold">یادداشت</h6>
+
+                            <h5 class="text-muted font-weight-bold mb-4"> ایجاد یادداشت </h5>
+                            <form action="#">
+                              <ul class="list-inline text-center">                          
+                                <li class="list-inline-item ml-4">
+                                  <a href="#" class="text-decoration-none">
+                                    <i class="fas fa-camera text-info"></i>                                 
+                                    <span class="text-muted">عکس</span>
+                                  </a>
+                                </li>        
+                                <li class="list-inline-item">
+                                  <a href="#" class="text-decoration-none">
+                                    <i class="fas fa-trash-alt text-danger"></i>
+                                    <span class="text-muted">حذف</span>
+                                  </a>
+                                </li>
+            
+                              </ul>                                 
+                              <div class="form-group">
+                                <input class="form-control mb-3 py-4" type="text" placeholder="نام یادداشت ...">
+                                <textarea id="myTextarea"></textarea>
+                                <button class="btn btn-block font-weight-bold" type="submit">اضافه کن</button>
+                              </div>
+                            </form>
+
+                            <h5 class="text-muted font-weight-bold mb-4"> یادداشت های من </h5>
+                            <div class="container-fluid bg-light Notes">
+                              <div class="row py-3 mb-4  align-items-center">            
+                                <div class="col-1">
+                                  <input type="checkbox" checked>
+                                </div>        
+                                <div class="col-9">
+                                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                </div>
+                                <div class="col mt-3">
+                                  <a href="#" data-toggle="tooltip" title="ویرایش" data-html="true" data-placement="top">
+                                    <i class="fas fa-edit fa-lg text-info"></i>
+                                  </a>
+                                </div>             
+                                <div class="col mt-3">
+                                  <a href="#" data-toggle="tooltip" title="حذف" data-html="true" data-placement="top"><i
+                                      class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                </div>            
+                              </div>            
+                            </div>   
+                            <div class="container-fluid bg-light Notes">
+                              <div class="row py-3 mb-4  align-items-center">
+                                <div class="col-1">
+                                  <input type="checkbox" checked>
+                                </div>
+                                <div class="col-9">
+                                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                </div>
+                                <div class="col mt-3">
+                                  <a href="#" data-toggle="tooltip" title="ویرایش" data-html="true" data-placement="top"><i
+                                      class="fas fa-edit fa-lg text-info"></i></a>
+                                </div>
+                                <div class="col  mt-3">
+                                  <a href="#" data-toggle="tooltip" title="حذف" data-html="true" data-placement="top"><i
+                                      class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                </div>
+                              </div>
+                            </div>            
+                            <div class="container-fluid bg-light Notes">
+                              <div class="row py-3 mb-4  align-items-center">
+                                <div class="col-1">
+                                  <input type="checkbox" checked>
+                                </div>
+                                <div class="col-9">
+                                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                </div>
+                                <div class="col mt-3">
+                                  <a href="#" data-toggle="tooltip" title="ویرایش" data-html="true" data-placement="top"><i
+                                      class="fas fa-edit fa-lg text-info"></i></a>
+                                </div>
+                                <div class="col mt-3">
+                                  <a href="#" data-toggle="tooltip" title="حذف" data-html="true" data-placement="top"><i
+                                      class="fas fa-trash-alt fa-lg text-danger"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+
+                      <div class="col-sm-3 Arshiv">
+                        <div id="news-Archive" class="row bg-top">
+                          <div class="col ">
+                            <h5 class="titr my-4">آرشیو</h5>
+                          </div>
+                        </div>
+                          <div class="scroll">
+                            <div class="row main2 mx-2 mb-1">
+                              <div class="col text-center mb-1 p-1">
+                                <a class="arshiv" href="#">عنوان 1</a>
+                              </div>
+                            </div>
+                            <div class="row main2 mx-2 mb-1">
+                              <div class="col text-center mb-1 p-1">
+                                <a class="arshiv" href="#">عنوان</a>
+                              </div>
+                            </div>
+                            <div class="row main2 mx-2 mb-1">
+                              <div class="col text-center mb-1 p-1">
+                                <a class="arshiv" href="#">عنوان 1</a>
+                              </div>
+                            </div>
+                            <div class="row main2 mx-2 mb-1">
+                              <div class="col text-center mb-1 p-1">
+                                <a class="arshiv" href="#">عنوان 1</a>
+                              </div>
+                            </div>
+                            <div class="row main2 mx-2 mb-1">
+                              <div class="col text-center mb-1 p-1">
+                                <a class="arshiv" href="#">عنوان 1</a>
+                              </div>
+                            </div>
+                            <div class="row main2 mx-2 mb-1">
+                              <div class="col text-center mb-1 p-1">
+                                <a class="arshiv" href="#">عنوان 1</a>
+                              </div>
+                            </div>
+                            <div class="row main2 mx-2 mb-1">
+                              <div class="col text-center mb-1 p-1">
+                                <a class="arshiv" href="#">عنوان 1</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>                   
+                </div>
+              </div>   
+            </div> 
+          </div>      
+        </div>    
+      </section>
+      <br>
+      <section style="width:100%;">
+        <div id="other" class="container-fluid">
+            <div id="Footer" class="row  justify-content-around p-4">
+              <div class="col-md-4 p-2 " id="bg-red" >
+                  <div class="row">
+                      <div class="col">
+                        <h5  id="links" class="p-2 text-center" >
+                            <a class="text-white" href="" data-toggle="modal" data-target="#supportModal">ارتباط با ما</a>
+                            <p class="text-white">09199052498</p>
+                            <p class="text-white">r-o-mah@ در تلگرام و ایتا</p>
+                        </h5>
+                      </div>
+                  </div>
+                <div class="row">
+                    <div class="col">
+                        <div  id="links" class="p-2 text-center" >
+                            <h5 class="text-white">ما را در شبکه های اجتماعی دنبال کنید.</h5>
+                            <div class="d-flex justify-content-center mt-3">
+                              <div class="p-2">
+                              <a href="https://eitaa.com/noore_maaah"><img class="footer-img" src="../img/eita.png" alt="ایتا"></a>
+                              </div>
+                              <div class="p-2">
+                                <a href="https://instagram.com/maaah_313 "><img class="footer-img" src="../img/insta.png" alt="اینستاگرام"></i></a>
+                                </div>                  
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-8 p-3" id="bg-red">
+                    <div class="row">
+                      <div class="col">
+                        <h6 id="bg-color" class="p-3 text-white text-center">
+                          درباره ما
+                        </h6>
+                      </div>
+                </div>
+                <div class="row ">
+                    <div class="col">
+                    <p class="text-white"> 
+                      موسسه فرهنگی هنری ماه : <br>
+                      محفلی برای دختران نوجوان ایرانی
+                      <br>
+                      مرکز تولید فکر و ایده و  محتوا برای کار فرهنگی دخترانه<br>
+                      حمایت کننده و ارتقادهنده مربیان،معلمان،و فعالین فرهنگی که با دختران نوجوان سر و کار دارند.
+  
+                    </p>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+  </body>
+</html>

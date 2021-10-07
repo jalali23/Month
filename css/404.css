@@ -1,0 +1,56 @@
+/* -------------- Animation -------------- */
+
+#animation {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  
+  /* -------------- Frame -------------- */
+  #frame {
+    width: 50px;
+    height: 72px;
+    border: 1px solid transparent;
+    background: url(https://s.cdpn.io/79/sprite-steps.png) no-repeat left top;
+    animation: frame-animation 1s steps(10) infinite;    
+  }
+  
+  @keyframes frame-animation { 0% { background-position: 0px 0; } 100% { background-position: -500px 0; } }
+  
+  
+  
+  /* Global ------------------------------------------------------ */
+  
+  html {
+    height: 100%;
+    font:62.5%/1 "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    background: #f0f0f0 url(../img/bg.png);
+  }
+  
+  body {
+    display:         flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    text-align: center;      
+  }
+  .text-404{
+      font-size: 20px;
+  }
+  .go:hover{
+     text-decoration: none;
+  }
+  
+ 
+  
+ 
+  
+  
